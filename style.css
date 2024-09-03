@@ -1,0 +1,85 @@
+/* Algemene Stijlen */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Lichtblauw achtergrond */
+    color: #1c3b72; /* Donkerblauwe tekstkleur */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #1c3b72; /* Donkerblauw */
+    color: #f0f8ff; /* Lichtblauwe tekstkleur */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigatie Menu */
+nav {
+    background-color: #4a76a8; /* Middelblauw */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f8ff; /* Lichtblauw */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcccb; /* Lichtroze voor hover-effect */
+}
+
+/* Sectie Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #e6f0fa; /* Zeer lichtblauw */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Knop Styling */
+button {
+    background-color: #1c3b72; /* Donkerblauw */
+    color: #f0f8ff; /* Lichtblauw */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #335a99; /* Iets lichtere tint van donkerblauw */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1c3b72; /* Donkerblauw */
+    color: #f0f8ff; /* Lichtblauw */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
